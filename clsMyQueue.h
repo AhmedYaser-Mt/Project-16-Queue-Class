@@ -10,23 +10,17 @@ class clsMyQueue
 protected:
 
 	clsDblLinkedList <T> _MyList;
-	T _Back = NULL;
 
 public:
 
 	void Push(T Item)
 	{
 		_MyList.InsertAtEnd(Item);
-
-		_Back = Item;
 	}
 
 	void Pop()
 	{
 		_MyList.DeleteFirstNode();
-
-		if (_MyList.IsEmpty())
-			_Back = NULL;
 	}
 
 	void Print()
@@ -46,15 +40,49 @@ public:
 
 	T Front()
 	{
-		if (IsEmpty())
-			return NULL;
-		else
-			return _MyList.Head->Value;
+		return _MyList.GetItem(0);
 	}
 
 	T Back()
 	{
-		return _Back;
+		return _MyList.GetItem(Size() - 1);
+	}
+
+	//----------------------------------------------------
+
+	T GetItem(int Index)
+	{
+		return _MyList.GetItem(Index);
+	}
+
+	void Reverse()
+	{
+		_MyList.Reverse();
+	}
+
+	void UpdateItem(int Index, T NewValue)
+	{
+		_MyList.UpdateItem(Index, NewValue);
+	}
+
+	void InsertAfter(int Index, T NewValue)
+	{
+		_MyList.InsertAfter(Index, NewValue);
+	}
+
+	void InsertAtFront(T Value)
+	{
+		_MyList.InsertAtBeginning(Value);
+	}
+
+	void InsertAtBack(T Value)
+	{
+		_MyList.InsertAtEnd(Value);
+	}
+
+	void Clear()
+	{
+		_MyList.Clear();
 	}
 };
 

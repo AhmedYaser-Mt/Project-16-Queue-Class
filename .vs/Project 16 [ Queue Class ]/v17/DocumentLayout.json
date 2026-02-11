@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\Users\\m\\source\\repos\\Project 16 [ Queue Class ]\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D2601E9-A890-4CC9-B9F5-5DC6F3E19CF9}|Project 16 [ Queue Class ].vcxproj|E:\\Users\\m\\source\\repos\\Project 16 [ Queue Class ]\\clsMyQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0D2601E9-A890-4CC9-B9F5-5DC6F3E19CF9}|Project 16 [ Queue Class ].vcxproj|solutionrelative:clsMyQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0D2601E9-A890-4CC9-B9F5-5DC6F3E19CF9}|Project 16 [ Queue Class ].vcxproj|E:\\Users\\m\\source\\repos\\Project 16 [ Queue Class ]\\Project 16 [ Queue Class ].cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0D2601E9-A890-4CC9-B9F5-5DC6F3E19CF9}|Project 16 [ Queue Class ].vcxproj|solutionrelative:Project 16 [ Queue Class ].cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D2601E9-A890-4CC9-B9F5-5DC6F3E19CF9}|Project 16 [ Queue Class ].vcxproj|E:\\Users\\m\\source\\repos\\Project 16 [ Queue Class ]\\clsMyQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0D2601E9-A890-4CC9-B9F5-5DC6F3E19CF9}|Project 16 [ Queue Class ].vcxproj|solutionrelative:clsMyQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D2601E9-A890-4CC9-B9F5-5DC6F3E19CF9}|Project 16 [ Queue Class ].vcxproj|E:\\Users\\m\\source\\repos\\Project 16 [ Queue Class ]\\clsDblLinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 186,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,26 +30,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Project 16 [ Queue Class ].cpp",
               "DocumentMoniker": "E:\\Users\\m\\source\\repos\\Project 16 [ Queue Class ]\\Project 16 [ Queue Class ].cpp",
               "RelativeDocumentMoniker": "Project 16 [ Queue Class ].cpp",
-              "ToolTip": "E:\\Users\\m\\source\\repos\\Project 16 [ Queue Class ]\\Project 16 [ Queue Class ].cpp",
-              "RelativeToolTip": "Project 16 [ Queue Class ].cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAASAAAAAAAAAA==",
+              "ToolTip": "E:\\Users\\m\\source\\repos\\Project 16 [ Queue Class ]\\Project 16 [ Queue Class ].cpp*",
+              "RelativeToolTip": "Project 16 [ Queue Class ].cpp*",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvzIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-09T12:33:21.256Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "clsMyQueue.h",
               "DocumentMoniker": "E:\\Users\\m\\source\\repos\\Project 16 [ Queue Class ]\\clsMyQueue.h",
               "RelativeDocumentMoniker": "clsMyQueue.h",
-              "ToolTip": "E:\\Users\\m\\source\\repos\\Project 16 [ Queue Class ]\\clsMyQueue.h",
-              "RelativeToolTip": "clsMyQueue.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAACAAAAAAAAAA==",
+              "ToolTip": "E:\\Users\\m\\source\\repos\\Project 16 [ Queue Class ]\\clsMyQueue.h*",
+              "RelativeToolTip": "clsMyQueue.h*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAFIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-02-09T12:41:36.81Z",
               "EditorCaption": ""
@@ -64,8 +64,7 @@
               "RelativeToolTip": "clsDblLinkedList.h",
               "ViewState": "AgIAAAkAAAAAAAAAAAAkwO8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-09T12:34:28.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-09T12:34:28.958Z"
             }
           ]
         },
