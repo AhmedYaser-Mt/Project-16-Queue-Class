@@ -1,97 +1,124 @@
 # Project 16 – Queue Class (C++ | Templates | OOP)
 
-A custom implementation of a **Queue data structure** in C++, built without using the STL, focusing on **understanding logic, object-oriented design, reusability, and clean architecture** rather than relying on ready-made libraries.
+A template-based Queue implementation in C++ built without using the STL.  
+This project focuses on object-oriented design, composition, reusability, and clean architecture by leveraging a custom Doubly Linked List as the underlying data structure.
 
 ---
 
-## 📌 Project Idea
+## 📌 Overview
 
-In previous courses, queues were implemented using the C++ STL.  
-In this project, the goal is **not** to reinvent the wheel, but to deeply understand **how data structures work internally** and how to design reusable, maintainable code.
+Instead of relying on `std::queue`, this project implements a custom Queue to better understand:
 
-Instead of building the queue from scratch again, this project leverages a previously implemented **Doubly Linked List** using the **Composition** principle in OOP.
+- Internal behavior of data structures
+- Abstraction and encapsulation
+- Composition over inheritance
+- Writing reusable and maintainable code
 
----
-
-## 🧠 Key Concepts Covered
-
-- Object-Oriented Programming (OOP)
-- Templates in C++
-- Composition vs Inheritance
-- Reusability and clean design
-- Data structure abstraction
-- Time complexity awareness (O(1) operations)
-- Writing less code by building on existing components
+The Queue is built on top of a previously implemented **Doubly Linked List**, using composition to avoid code duplication and maintain separation of concerns.
 
 ---
 
-## 🧱 Design Approach
+## 🧱 Architecture & Design
 
-- The queue **does not inherit** from the doubly linked list.
-- Instead, it **contains** a doubly linked list object internally (Composition).
-- Internal list methods are hidden from the outside user.
-- Queue operations are simple wrappers around list operations:
-  - `Push` → Insert at end
-  - `Pop` → Delete first node
-- The internal implementation (array or linked list) is completely hidden from the user.
+- The Queue **does not inherit** from the Doubly Linked List.
+- It **contains** a Doubly Linked List object internally.
+- All list operations remain hidden from external users.
+- The public interface exposes only Queue-related behavior.
 
-This makes the queue flexible, reusable, and easy to modify in one place.
+This ensures:
+- Clear abstraction
+- Clean public API
+- Flexible internal implementation
+- Easy future extensions
 
 ---
 
-## ⚙️ Supported Operations
+## ⚙️ Core Operations
 
 - `Push(T item)`
 - `Pop()`
 - `Front()`
 - `Back()`
-- `Print()`
 - `Size()`
 - `IsEmpty()`
+- `Print()`
 
-The class is fully **template-based**, making it usable with any data type.
+---
+
+## ➕ Extensions (Phase 2)
+
+Additional functionality added through composition:
+
+- `GetItem(int index)`
+- `Reverse()`
+- `UpdateItem(int index, T value)`
+- `InsertAfter(int index, T value)`
+- `InsertAtFront(T value)`
+- `InsertAtBack(T value)`
+- `Clear()`
+
+All extensions reuse existing Doubly Linked List logic without rewriting algorithms.
+
+---
+
+## 🧠 Key Concepts Demonstrated
+
+- Templates for generic programming
+- Object-Oriented Programming (OOP)
+- Composition vs Inheritance
+- Encapsulation and abstraction
+- Code reusability
+- Separation of responsibilities
+- Scalable design thinking
 
 ---
 
 ## 🚀 Why This Project Matters
 
-- We could use `std::queue` instantly — but then we wouldn’t learn anything.
-- Small projects like this build **strong thinking skills**.
-- Understanding reusability and abstraction early saves **years of struggle later**.
-- Clean architecture allows changes in one place to propagate everywhere.
-- This mindset separates average programmers from strong engineers.
+This project is not about replacing STL.  
+It is about understanding how data structures are built and how clean architecture makes extending functionality simple and efficient.
 
-> We don’t learn technologies to memorize them — we learn how to build and think.
-
----
-
-## 🧩 Reusability in Action
-
-The queue was built in minutes because:
-- The doubly linked list was already well-designed.
-- No code duplication.
-- Like LEGO blocks — build once, reuse everywhere.
-
-Future enhancements can be added easily without breaking existing code.
+When the foundation is designed correctly:
+- Adding features becomes trivial
+- Code duplication disappears
+- Maintenance becomes easier
+- Systems scale naturally
 
 ---
 
-## 🛠️ Future Improvements
+## 🎓 Learning Platform & Roadmap
 
-- Additional queue utilities
-- Enhanced safety checks
-- Performance optimizations
-- Extended real-world use cases
+This project is part of my structured learning journey through:
+
+**Programming Advices Platform**  
+Instructor: **Dr. Mohammed Abu-Hadhoud**
+
+Roadmap Stage:
+- Foundations of C++
+- Object-Oriented Programming (OOP)
+- Data Structures Implementation
+- Building reusable components
+- Applying composition in real projects
+
+The focus of this roadmap is not only learning syntax, but mastering design thinking, abstraction, and scalable architecture.
 
 ---
 
-## 📎 Technologies Used
+## 🛠️ Technologies
 
 - C++
 - Templates
-- Object-Oriented Programming
 - Custom Doubly Linked List
+- Object-Oriented Design Principles
 
 ---
 
-✨ Clean code, clear ideas, and strong foundations.
+## 📂 Related Project
+
+This Queue implementation is built on top of:
+
+- **Project 15 – Doubly Linked List (C++)**
+
+---
+
+Clean structure. Reusable components. Scalable design.
